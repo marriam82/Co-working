@@ -1,0 +1,291 @@
+.nav
+{
+    position:fixed;
+    width:98.9%;
+    height:80px;
+    background:black;
+    top:-5px;
+    z-index:1
+
+}
+.nav img
+{
+width:200px;
+height:60px;
+margin:7px 170px;
+}
+.nav ul
+{
+    margin-left:580px;
+    margin-top:-50px;
+    color:white;
+   
+  
+}
+.nav ul li
+{
+    margin-left:20px;
+    text-decoration: none;
+    display:inline-block;
+    font-size:20px;
+
+   
+}
+span 
+{
+    color:cyan;
+    font-family: 'Cookie', cursive;
+font-size: 30px;
+}
+.background
+{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url('1.jpg');
+    background-size: 100% 100%;
+position: relative;
+}
+.background h1
+{
+   color:white;
+   font-size:40px;
+   text-align:center;
+   position: relative;
+   top:270px;
+   font-size:100px;
+
+}
+.background p
+{
+    color:white;
+    text-align:center;
+ margin-top:300px;
+ letter-spacing: 10px;
+ font-family: 'Tajawal', sans-serif;
+
+}
+#btn-1
+{
+border: none;
+background:lightskyblue;
+font-size: 15px;
+
+text-transform: uppercase;
+line-height:40px;
+width:300px;
+ font-family: 'Tajawal', sans-serif;
+width: 150px;
+margin-top: 100px;
+margin-left:570px;
+color:white;
+}
+.second
+{
+    width:100%;
+    height:100vh;
+    background-image:url('2.jpg');
+    background-size:100% 100%;
+    position: relative;
+    padding:1px;
+    background-attachment: fixed;
+}
+.white
+{
+    width:600px;
+    height:500px;
+    background:white;
+    position: relative;
+    margin-top:100px;
+    margin-left:350px;
+}
+.white h1
+{
+    text-align:center;
+   top:40px;
+    position: relative;
+    font-size:50px;
+  
+}
+.white p
+{
+    text-align:center;
+    position: relative;
+    top:60px;
+    line-height:25px;
+
+}
+.three
+{
+    width:100%;
+    height:96vh;
+    background:silver;
+    position: relative; 
+    padding:1px;
+}
+.three h1
+{
+    padding:1px;
+    font-size:50px;
+    margin-top:70px;
+    margin-left:450px;
+}
+.three p
+{
+    
+    margin-top:-10px;
+    line-height:20px;
+    margin-left:400px;
+}
+.three img
+{
+    margin:60px 20px;
+    display:inline-block;
+    width:400px;
+    height:350px;
+    animation-name:pics;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    animation-delay:2s;
+}
+@keyframes pics
+{
+    from{
+        left:100px;
+    
+    }
+    to{
+        left:200px;
+    }
+}
+.four
+{
+    width: 100%;
+    height:121vh;
+    background:cyan;
+    padding:1px;
+  
+}
+.four h1
+{
+    color:white;
+    font-size:70px;
+    margin-left:540px;
+}
+.four p
+{
+    color:white;
+    margin-left:300px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:-30px;
+}
+.four img{
+    width:49.8%;
+    height:300px;
+    display:inline-block;
+}
+.five
+{
+    width:100%;
+    height:80vh;
+    background:lightgrey;
+    padding:1px;
+
+
+}
+.five h1{
+    text-align: center;
+    margin-top:50px;
+    font-size:50px;
+}
+.five p{
+    text-align:center;
+
+}
+.a 
+{
+   width:400px;
+   height:100px;
+   border:1px solid;
+   margin-left:10px;
+   margin-top:50px;
+   display:inline-block;
+}
+.six
+{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)),url('vz-office-work-compressor.jpg');
+    width:100%;
+    height:90vh;
+    background-size:100% 100%;
+    /* background-attachment:fixed; */
+   padding:1px; 
+    
+}
+.six h1
+{
+text-align:center;
+margin-top:70px;
+color:white;
+}
+.six p
+{
+    color:white;
+    text-align:center;
+    line-height:20px;
+
+}
+.six h6
+{
+    color:white;
+   text-align:center;
+   margin-top:100px;
+   font-size:20px;
+   font-weight:normal;
+}
+.n
+{
+    width:300px;
+    height:30px;
+   background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)),transparent;
+  color:white;
+   margin-left:500px;
+   font-family: 'Tajawal', sans-serif;
+   padding-left:15px;
+   padding-top:5px;
+}
+.n:hover
+{
+background:cyan;
+
+}
+.m
+{
+    width:300px;
+    height:30px;
+   background:cyan;
+   color:white;
+  margin-top:20px;
+   margin-left:500px;
+   text-align:center;
+  padding:1px;
+  padding-top:8px;
+  font-family: 'Tajawal', sans-serif;
+}
+.m:hover{
+background:darkturquoise ;
+}
+.footer
+{
+background:#323232;
+width:100%;
+height:100px;
+position:relative;
+padding:1px;
+}
+.footer p{
+    color:white;
+  margin-left:200px;
+  margin-top:39px;
+  font-size:28px;
+
+}
